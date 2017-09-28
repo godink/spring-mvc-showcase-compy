@@ -16,5 +16,6 @@ public class SimpleControllerTests {
 			.andExpect(status().isOk())
 			.andExpect(content().contentType("text/plain;charset=ISO-8859-1"))
 			.andExpect(content().string("Hello world!"));
+		System.out.println("add a print text");
 	}
 }
